@@ -24,6 +24,7 @@ Some examples:
 - [Personal Homepage of the author](https://rayeren.github.io/)
 
 ## Key Features
+
 - **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
 - **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
 - **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
