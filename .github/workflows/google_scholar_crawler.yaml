@@ -1,19 +1,40 @@
 name: Get Citation Data
 
 on: 
- workflow_dispatch:  # 添加这一行支持手动触发
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+  workflow_dispatch:  # 支持手动触发
+  page_build: 
+  schedule:
+    - cron:  '0 8 * * *'
+  push:  # 添加 push 事件，用于测试
+    branches:
+      - main  # 指定主分支，根据你的实际情况修改
+
+permissions:
+  contents: write  # 添加写权限
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Clean up directory
+      run: |
+        rm -rf google_scholar_crawler/results/* || true
+    
+    - name: Check for required secrets
+      run: |
+        if [ -z "$GOOGLE_SCHOLAR_ID" ]; then
+          echo "GOOGLE_SCHOLAR_ID secret is not set. Exiting."
+          exit 1
+        fi
+      env:
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+    
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
+    
     - name: Run
       run: |
         cd ./google_scholar_crawler
@@ -22,8 +43,13 @@ jobs:
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
+        if git diff --staged --quiet; then
+          echo "No changes to commit. Exiting."
+          exit 0
+        fi
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env: 
