@@ -1,10 +1,9 @@
-import os
+from scholarly import scholarly, MaxTriesExceededException
 import json
+import os
+from datetime import datetime
 import time
 import random
-
-from datetime import datetime
-from scholarly import scholarly, MaxTriesExceededException
 
 try:
     # 配置scholarly
@@ -12,13 +11,18 @@ try:
     scholarly.set_timeout(10)  # 10秒超时
     
     # 打印进度
-    print(f"开始查询学者ID: {os.environ['GOOGLE_SCHOLAR_ID']}")
+    print(f"开始查询学者ID: {os.environ['GOOGLE_SCHOLAR_ID']} {os.environ['GOOGLE_SCHOLAR_ID'] is not None}")
     start_time = time.time()
 
     # 查询作者信息
     author = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+    
+    # 检查是否找到作者
+    if author is None:
+        raise ValueError(f"未找到学者ID: {os.environ['GOOGLE_SCHOLAR_ID']}")
+    
     print(f"✅ 获取学者基本信息成功，耗时 {time.time()-start_time:.2f} 秒")
-
+    
     # 随机延迟，模拟人类行为
     time.sleep(random.uniform(2, 5))
     
@@ -51,6 +55,9 @@ try:
 
 except MaxTriesExceededException:
     print("❌ 错误: 达到最大重试次数，可能被Google Scholar封禁")
+    exit(1)
+except ValueError as ve:
+    print(f"❌ 错误: {str(ve)}")
     exit(1)
 except Exception as e:
     print(f"❌ 错误: {str(e)}")
