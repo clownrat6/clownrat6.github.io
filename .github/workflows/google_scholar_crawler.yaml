@@ -15,14 +15,13 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-
     env:
       GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-
+    steps:
+    - uses: actions/checkout@v4  # 升级到最新版本
     - name: Clean up directory
       run: |
+        mkdir -p google_scholar_crawler/results
         rm -rf google_scholar_crawler/results/* || true
     
     - name: Check for required secrets
@@ -31,25 +30,25 @@ jobs:
           echo "GOOGLE_SCHOLAR_ID secret is not set. Exiting."
           exit 1
         fi
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
     
-    - name: Install Reqs
+    - name: Install Dependencies
       run: |
         sudo apt-get install python3-setuptools
+        pip3 install -r google_scholar_crawler/requirements.txt
     
     - name: Run
       run: |
         echo $GOOGLE_SCHOLAR_ID
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
         python3 main.py
-        cd ./results
+        # 移动到仓库根目录执行 Git 操作
+        cd $GITHUB_WORKSPACE
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
+        # 添加 results 目录下的文件
+        git add google_scholar_crawler/results/*.json
         if git diff --staged --quiet; then
           echo "No changes to commit. Exiting."
           exit 0
