@@ -1,27 +1,26 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# 使用 Jekyll 4.3.x 版本（兼容 Ruby 3.x）
+gem "jekyll", "~> 4.3"
 
-gem "github-pages", group: :jekyll_plugins
+# 基础插件
+gem "jekyll-feed", "~> 0.16"
+gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+gem "jekyll-redirect-from"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
+# Windows 平台支持
+gem "wdm", "~> 0.1.1" if Gem.win_platform?
 
-# gem "jekyll"
+# 其他必要插件
+# group :jekyll_plugins do
+#   gem "jekyll-feed"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-seo-tag"
+# end
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
-end
+# 确保使用最新的兼容依赖
+gem "webrick"  # Ruby 3.x 需要显式包含
+gem "listen", "~> 3.8"  # 文件监听插件，确保版本兼容    
