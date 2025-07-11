@@ -1,11 +1,13 @@
 name: Update github myprofile
 
-on: 'page_build'
+on: 
+  workflow_dispatch:  # 支持手动触发
+  page_build:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
@@ -16,7 +18,7 @@ jobs:
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "cyanlaser@stu.pku.edu.cn"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GHRS_GITHUB_API_TOKEN }}@github.com/clownrat6/clownrat6.git"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/clownrat6/clownrat6.git"
         git add README.md
         git add images
         git commit -m "update my description automatically"
