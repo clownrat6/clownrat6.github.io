@@ -1,9 +1,15 @@
-from scholarly import scholarly, MaxTriesExceededException
-import json
 import os
-from datetime import datetime
+import json
 import time
 import random
+import traceback
+from datetime import datetime
+
+from scholarly import scholarly, MaxTriesExceededException
+
+
+
+
 
 try:
     # 配置scholarly
@@ -56,9 +62,11 @@ try:
 except MaxTriesExceededException:
     print("❌ 错误: 达到最大重试次数，可能被Google Scholar封禁")
     exit(1)
-except ValueError as ve:
-    print(f"❌ 错误: {str(ve)}")
-    exit(1)
-except Exception as e:
-    print(f"❌ 错误: {str(e)}")
-    exit(1)
+except:
+    traceback.print_exc()
+# except ValueError as ve:
+#     print(f"❌ 错误: {str(ve)}")
+#     exit(1)
+# except Exception as e:
+#     print(f"❌ 错误: {str(e)}")
+#     exit(1)
