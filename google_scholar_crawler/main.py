@@ -5,10 +5,13 @@ import random
 import traceback
 from datetime import datetime
 
-from scholarly import scholarly, MaxTriesExceededException
+from scholarly import scholarly, MaxTriesExceededException, ProxyGenerator
 
 
-
+# 设置代理
+pg = ProxyGenerator()
+pg.FreeProxies()  # 使用免费代理
+scholarly.use_proxy(pg)
 
 
 try:
