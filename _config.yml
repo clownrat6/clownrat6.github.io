@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zesen Cheng (成泽森)"
-description              : "Focusing on Audio-Visual/Streaming/Long/Regular Video LLM."
+description              : "Focusing on \"Audio-Visual / Streaming / Long / Regular\" Video LLM."
 repository               : "clownrat6/clownrat6.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Zesen Cheng (任意)"
+  name             : "Zesen Cheng <br>(成泽森)"
   avatar           : "images/ice.png"
   bio              : ""
   location         : "Hangzhou"
@@ -65,6 +65,11 @@ include:
   - _pages
   - files
 exclude:
+  - _site
+  - node_modules
+  - .git
+  - vendor/bundle
+  - .bundle
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

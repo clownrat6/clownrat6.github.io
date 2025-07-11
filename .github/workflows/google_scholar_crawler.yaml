@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # 支持手动触发
   page_build: 
   schedule:
-    - cron:  '0 8 * * *'
+    - cron: '0 8 * * *'
   push:  # 添加 push 事件，用于测试
     branches:
       - main  # 指定主分支，根据你的实际情况修改
