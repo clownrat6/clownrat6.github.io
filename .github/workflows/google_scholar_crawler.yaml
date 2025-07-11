@@ -48,7 +48,7 @@ jobs:
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         # 添加 results 目录下的文件
-        git add google_scholar_crawler/results/*.json
+        git add -f google_scholar_crawler/results/*.json
         if git diff --staged --quiet; then
           echo "No changes to commit. Exiting."
           exit 0
