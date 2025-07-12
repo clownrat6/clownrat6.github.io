@@ -1,9 +1,9 @@
 
 # 💻 Selected Research Papers
 
-My full paper list is shown at [my personal homepage](https://rayeren.github.io).
+My full paper list is shown at [my personal homepage](https://clownrat6.github.io).
 
-#### 🎙 Audio and Speech Processing
+<!-- #### 🎙 Audio and Speech Processing
 - ``ICLR 2021`` [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), **Yi Ren**, Chenxu Hu, Xu Tan, et al.
 - ``NeurIPS 2019`` [FastSpeech: Fast, Robust and Controllable Text to Speech](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf), **Yi Ren**, Yangjun Ruan, Xu Tan, et al.
 - `ICLR 2024` [Mega-TTS 2: Boosting Prompting Mechanisms for Zero-Shot Speech Synthesis](https://openreview.net/forum?id=mvMI3N4AvD), Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al. 
@@ -29,4 +29,4 @@ My full paper list is shown at [my personal homepage](https://rayeren.github.io)
 
 #### 🧑‍🎨 Generative Model
 - ``ICLR 2022`` [Pseudo Numerical Methods for Diffusion Models on Manifolds](https://openreview.net/forum?id=PlKWVd2yBkY), Luping Liu, **Yi Ren**, et al. \| [![](https://img.shields.io/github/stars/luping-liu/PNDM?style=social&label=Code+Stars)](https://github.com/luping-liu/PNDM) \| [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pseudo-numerical-methods-for-diffusion-models-1/image-generation-on-celeba-64x64)](https://paperswithcode.com/sota/image-generation-on-celeba-64x64?p=pseudo-numerical-methods-for-diffusion-models-1)
-
+ -->

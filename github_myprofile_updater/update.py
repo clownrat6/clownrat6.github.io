@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    _header = '## Hi there 👋'
+    _header = '## Hi there 👋\n<img align="right" src="https://github-readme-stats.vercel.app/api?username=clownrat6&count_private=true&show_icons=true&theme=radical" />'
     base_dir = '../_pages/includes/'
     _intro = open(f'{base_dir}/intro.md').read().strip()
     _homepage = open(f'{base_dir}/homepage.md').read().strip()
