@@ -1,8 +1,0 @@
-# 保存为 .github/workflows/test.yml
-name: Test Trigger
-on: workflow_dispatch
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Workflow triggered!"
