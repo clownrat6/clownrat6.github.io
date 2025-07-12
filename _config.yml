@@ -7,29 +7,29 @@
 
 # Site Settings
 title                    : "Zesen Cheng (成泽森)"
-description              : "Focusing on \"Audio-Visual / Streaming / Long / Regular\" Video LLM."
+description              : "Focusing on \"General / Long / Audio-Visual / Streaming\" Video LLM."
 repository               : "clownrat6/clownrat6.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      : G-SWFCX99KQZ
+google_analytics_id      : 
 
 # SEO Related
-google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
-bing_site_verification   : B5AA590E7B9C03956A6F7DEC0F776211
-baidu_site_verification  : code-ZxFK3f4pfb
+google_site_verification : 
+bing_site_verification   : 
+baidu_site_verification  : 
 
 # Site Author
 author:
   name             : "Zesen Cheng <br>(成泽森)"
   avatar           : "images/ice.png"
-  bio              : ""
+  bio              : 🤡🐀人
   location         : "Hangzhou"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Jkkp8JAAAAAJ&hl=zh-CN"
   email            : "cyanlaser@stu.pku.edu.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Zesen-Cheng" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : 
   dblp             : "https://dblp.org/pid/277/1879.html"
-  orcid            : "https://orcid.org/0000-0002-1885-4261"
+  orcid            : # "https://orcid.org/0000-0002-1885-4261"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

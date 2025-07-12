@@ -1,11 +1,32 @@
-北大计算机直博，总引用 1600 次，总 Star 2000 次，主要研究方向为多模态基础模型, 有着该方向: 团队协作 (Qwen2.5VL core contributor)，项目架构 (VideoLLaMA2 / VideoLLaMA3 main author)，分析和解决具体问题 (CVPR 2025 Inf-CL; CMM) 的相关经历和经验。辅助研究方向为图像/视频分割，发表五项工作 (ICCV / CVPR / IJCAI / AAAI×2)。人生格言: 知行合一, 格物致知; 志存高远, 脚踏实地。
+我是北京大学计算机科学与技术专业直博四年级学生 （预计 2026 年毕业），本科毕业于华南理工大学电子与信息学院（2021 届）。
 
-<!-- I am now working on audio-driven video generation and text-to-speech research. If you are seeking any form of **academic cooperation**, please feel free to email me at [rayeren613@gmail.com](mailto:rayeren613@gmail.com). We are hiring interns!
+人生格言: 知行合一，格物致知；志存高远，脚踏实地。
 
-I graduated from [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/main.htm), Zhejiang University (浙江大学竺可桢学院) with a bachelor's degree and from the Department of Computer Science and Technology, Zhejiang University (浙江大学计算机科学与技术学院) with a master's degree, advised by [Zhou Zhao (赵洲)](https://person.zju.edu.cn/zhaozhou). I also collaborate with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta/), [Tao Qin (秦涛)](https://www.microsoft.com/en-us/research/people/taoqin/) and [Tie-yan Liu (刘铁岩)](https://www.microsoft.com/en-us/research/people/tyliu/) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) <img src='./images/microsoft_logo.svg' style="width: 4em;"> closely. 
+### 📌 主要研究方向
 
-I won the [Baidu Scholarship](https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91/9929412) (10 candidates worldwide each year) and [ByteDance Scholars Program](https://ur.bytedance.com/scholarship) (10 candidates worldwide each year) in 2020 and was selected as one of [the top 100 AI Chinese new stars](https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd) and AI Chinese New Star Outstanding Scholar (10 candidates worldwide each year). 
+我的研究方向主要集中在 "多模态大模型与图像/视频理解" 领域，具体包括：
 
-My research interest includes speech synthesis, neural machine translation and automatic music generation. I have published 50+ papers <a href='https://scholar.google.com/citations?user=4FA6C0AAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as NeurIPS, ICML, ICLR, KDD. 
+* 多模态大模型 (视频理解), 包括:
+    * 泛视频理解: Qwen2.5-VL **<font color="red">core contributor</font>**
+    * 音视频理解: VideoLLaMA2; CMM
+    * 流视频理解: VideoLLaMA3
+    * 长视频理解: Inf-CL **(<font color="red">CVPR 2025 Highlight</font>)**
+    * 细粒度视频理解: VideoRefer **(CVPR 2025)**
+* 图像/视频分割，包括:
+    * 弱监督分割:&emsp; OCR **(CVPR 2023)**
+    * 视频实例分割: TAR **(ICCV 2025)**
+    * 多模态分割:&emsp; WiCo **(IJCAI 2023, Neurocomputing 2024)**; PVD **(AAAI 2024)**; BriVIS **(AAAI 2025)**
+    * 医学图像分割: Fused U-Net **(Medical Physics 2021)**
 
-To promote the communication among the Chinese ML & NLP community, we (along with other 11 young scholars worldwide) founded the [MLNLP community](https://space.bilibili.com/168887299) in 2021. I am honored to be one of the chairs of the MLNLP committee. -->
+### 📈 学术成果
+
+目前已发表论文 20+ 篇，总 Google Scholar 引用量为 <a href="https://scholar.google.com/citations?user=Jkkp8JAAAAAJ" target="_blank">
+<img src=" https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fclownrat6%2Fclownrat6.github.io@google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Citations"></a>。
+
+所参与开源项目获得广泛关注，代表性项目的 GitHub Star 数如下：
+
+<a href=" https://github.com/DAMO-NLP-SG/VideoLLaMA2 " target="_blank"><img src="https://img.shields.io/github/stars/DAMO-NLP-SG/VideoLLaMA2?style=social" alt="VideoLLaMA2 Stars"></a> <a href=" https://github.com/DAMO-NLP-SG/VideoLLaMA3 " target="_blank"><img src="https://img.shields.io/github/stars/DAMO-NLP-SG/VideoLLaMA3?style=social" alt="VideoLLaMA3 Stars"></a> <a href=" https://github.com/DAMO-NLP-SG/Inf-CL " target="_blank"><img src="https://img.shields.io/github/stars/DAMO-NLP-SG/Inf-CL?style=social" alt="Inf-CL Stars"></a> <a href=" https://github.com/DAMO-NLP-SG/CMM " target="_blank"><img src="https://img.shields.io/github/stars/DAMO-NLP-SG/CMM?style=social" alt="CMM Stars"></a> <a href=" https://github.com/DAMO-NLP-SG/VideoRefer " target="_blank"><img src="https://img.shields.io/github/stars/DAMO-NLP-SG/VideoRefer?style=social" alt="VideoRefer Stars"></a> 
+
+### 💬 联系方式
+
+如果您对我的研究感兴趣，欢迎联系交流合作或提供实习 / 全职机会 🙏🙏。这是我的联系邮箱: cyanlaser@stu.pku.edu.cn
