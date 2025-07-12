@@ -33,6 +33,24 @@ Some examples:
 
 ## Quick Start
 
+```
+# 安装 ruby, rubygems: `apt install ruby-full`
+apt install -y ruby-full
+# 设置 RubyGems 镜像源
+# 如果需要使用国内镜像源，可以取消下面的注释
+# gem sources --remove https://rubygems.org/
+# gem sources -a https://gems.ruby-china.com
+# 设置 gem 源: `gem sources -a https://mirrors.aliyun.com/rubygems`
+gem sources -a https://mirrors.aliyun.com/rubygems
+gem install bundler
+
+# 替换为国内镜像源（如淘宝/阿里云）
+bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+bundle install
+```
+
+1. `google_scholar_crawler` 可以获取引用信息
+2. `update_github_myprofile` 需要申请一个 API token, `Settings -> Developer settings -> Personal access tokens -> Fine-grained tokens -> generate new tokens`，创建新 tokens 的时候，注意要勾选 actions / commit 相关的权限配置。
 1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
 1. Configure the google scholar citation crawler:
     1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.

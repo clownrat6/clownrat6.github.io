@@ -62,7 +62,7 @@ src="https://github.com/DAMO-NLP-SG/VideoLLaMA2/assets/18526640/e0e7951c-f392-42
 [The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio](https://arxiv.org/pdf/2410.12787) <br>
 Sicong Leng\*, Yun Xing\*, **Zesen Cheng**\*, Yang Zhou, Hang Zhang, Xin Li, Deli Zhao, Shijian Lu, Chunyan Miao, Lidong Bing
 
-[**Project**](https://cmm-damovl.site/) 
+[**Project**](https://cmm-damovl.site/) \|
 [**Code**](https://github.com/DAMO-NLP-SG/CMM) [![](https://img.shields.io/github/stars/DAMO-NLP-SG/CMM?style=social&label=CMM+Stars)](https://github.com/DAMO-NLP-SG/CMM) \|
 [![hf_data](https://img.shields.io/badge/🤗-CMM-9C276A.svg)](https://huggingface.co/datasets/DAMO-NLP-SG/CMM)
 <strong><span class='show_paper_citations' data='Jkkp8JAAAAAJ:YOwf2qJgpHMC'></span></strong>
