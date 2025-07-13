@@ -21,7 +21,7 @@
 ### 📈 学术成果
 
 目前已发表论文 20+ 篇，总 Google Scholar 引用量为 <a href="https://scholar.google.com/citations?user=Jkkp8JAAAAAJ" target="_blank">
-<img src=" https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fclownrat6%2Fclownrat6.github.io@google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Citations"></a>。
+<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fclownrat6%2Fclownrat6.github.io@google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Citations"></a>。
 
 所参与开源项目获得广泛关注，代表性项目的 GitHub Star 数如下：
 
