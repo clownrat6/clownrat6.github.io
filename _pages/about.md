@@ -54,9 +54,9 @@ redirect_from:
 {% capture zh_others %}{% include_relative includes_zh/others.md %}{% endcapture %}
 
 <div class="lang-content lang-zh" style="display: none;">
-  {{ zh_intro | markdownify }}
-  {{ zh_news | markdownify }}
-  {{ zh_pub | markdownify }}
+  {{ zh_intro  | markdownify }}
+  {{ zh_news   | markdownify }}
+  {{ zh_pub    | markdownify }}
   {{ zh_honers | markdownify }}
   {{ zh_others | markdownify }}
 </div>
