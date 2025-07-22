@@ -93,7 +93,8 @@ redirect_from:
 </script>
 
 <a href=""><img src="https://s05.flagcounter.com/count2/XcvZ/bg_FFFEFA/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-<a href="https://clustrmaps.com/site/1c76b"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=xkfYpF7jdZxG0K1rsuHQGjnlMfNBPUUq7pLSiLA0vz0&cl=ffffff" /></a>
+
+<!-- <a href="https://clustrmaps.com/site/1c76b"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=xkfYpF7jdZxG0K1rsuHQGjnlMfNBPUUq7pLSiLA0vz0&cl=ffffff" /></a> -->
 
 <div style="width: 100%; max-width: 200px; height: 0; position: relative; margin: auto;">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=xkfYpF7jdZxG0K1rsuHQGjnlMfNBPUUq7pLSiLA0vz0"></script>
