@@ -1,0 +1,489 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "Jkkp8JAAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Zesen Cheng",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Jkkp8JAAAAAJ&citpid=1",
+  "affiliation": "Peking University",
+  "organization": 10725744176602846184,
+  "interests": [
+    "MLLM",
+    "Video LLM",
+    "Visual Grounding",
+    "Image/Video Segmentation"
+  ],
+  "email_domain": "@stu.pku.edu.cn",
+  "homepage": "https://clownrat6.github.io/",
+  "citedby": 3035,
+  "publications": {
+    "Jkkp8JAAAAAJ:qUcmZB5y_30C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MMSegmentation: Openmmlab semantic segmentation toolbox and benchmark",
+        "pub_year": "2020",
+        "citation": ""
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:qUcmZB5y_30C",
+      "num_citations": 1064,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11888303093816956250",
+      "cites_id": [
+        "11888303093816956250"
+      ]
+    },
+    "Jkkp8JAAAAAJ:IWHjjKOFINEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Qwen2. 5-VL Technical Report",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2502.13923, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:IWHjjKOFINEC",
+      "num_citations": 918,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17228762815164716147,8046402705772761010,9733340859417307549,1918611363619722453",
+      "cites_id": [
+        "17228762815164716147",
+        "8046402705772761010",
+        "9733340859417307549",
+        "1918611363619722453"
+      ]
+    },
+    "Jkkp8JAAAAAJ:Wp0gIr-vW9MC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+        "pub_year": "2024",
+        "citation": "arXiv preprint arXiv:2406.07476, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:Wp0gIr-vW9MC",
+      "num_citations": 377,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17376159172776755372,15725776167871611863,17984570593822333789",
+      "cites_id": [
+        "17376159172776755372",
+        "15725776167871611863",
+        "17984570593822333789"
+      ]
+    },
+    "Jkkp8JAAAAAJ:YsMSGLbcyi4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "EDA: Explicit Text-Decoupling and Dense Alignment for 3D Visual Grounding",
+        "pub_year": "2023",
+        "citation": "CVPR 2023, 19231-19242, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:YsMSGLbcyi4C",
+      "num_citations": 116,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17253288657998487561",
+      "cites_id": [
+        "17253288657998487561"
+      ]
+    },
+    "Jkkp8JAAAAAJ:ZeXyd9-uunAC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2501.13106, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:ZeXyd9-uunAC",
+      "num_citations": 97,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15992671527303616904,2888257603960162153",
+      "cites_id": [
+        "15992671527303616904",
+        "2888257603960162153"
+      ]
+    },
+    "Jkkp8JAAAAAJ:Y0pCki6q_DkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Diffusionret: Generative text-video retrieval with diffusion model",
+        "pub_year": "2023",
+        "citation": "ICCV 2023, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:Y0pCki6q_DkC",
+      "num_citations": 85,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13193353915930591338",
+      "cites_id": [
+        "13193353915930591338"
+      ]
+    },
+    "Jkkp8JAAAAAJ:W7OEmFMy1HYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Out-of-Candidate Rectification for Weakly-supervised Semantic Segmentation",
+        "pub_year": "2023",
+        "citation": "CVPR 2023, 23673-23684, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:W7OEmFMy1HYC",
+      "num_citations": 70,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11641084056016261313",
+      "cites_id": [
+        "11641084056016261313"
+      ]
+    },
+    "Jkkp8JAAAAAJ:eQOLeE2rZwMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "ACSeg: Adaptive Conceptualization for Unsupervised Semantic Segmentation",
+        "pub_year": "2023",
+        "citation": "CVPR 2023 Hightlight, 7162-7172, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:eQOLeE2rZwMC",
+      "num_citations": 61,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6522624879731029984,6916364868149781870",
+      "cites_id": [
+        "6522624879731029984",
+        "6916364868149781870"
+      ]
+    },
+    "Jkkp8JAAAAAJ:ufrVoPGSRksC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Text-Video Retrieval with Disentangled Conceptualization and Set-to-Set Alignment",
+        "pub_year": "2023",
+        "citation": "IJCAI 2023, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:ufrVoPGSRksC",
+      "num_citations": 50,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6120420722578803501,13045373978512333942",
+      "cites_id": [
+        "6120420722578803501",
+        "13045373978512333942"
+      ]
+    },
+    "Jkkp8JAAAAAJ:zYLM7Y9cAGgC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Parallel Vertex Diffusion for Unified Visual Grounding",
+        "pub_year": "2023",
+        "citation": "AAAI 2024, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:zYLM7Y9cAGgC",
+      "num_citations": 29,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9852179271224815814",
+      "cites_id": [
+        "9852179271224815814"
+      ]
+    },
+    "Jkkp8JAAAAAJ:IjCSPb-OGe4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Integrating multiple MRI sequences for pelvic organs segmentation via the attention mechanism",
+        "pub_year": "2021",
+        "citation": "Medical physics 48 (12), 7930-7945, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:IjCSPb-OGe4C",
+      "num_citations": 19,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7031666255788535887",
+      "cites_id": [
+        "7031666255788535887"
+      ]
+    },
+    "Jkkp8JAAAAAJ:roLk4NBRz8UC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TG-VQA: Ternary Game of Video Question Answering",
+        "pub_year": "2023",
+        "citation": "IJCAI 2023, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:roLk4NBRz8UC",
+      "num_citations": 18,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18413276272670293807",
+      "cites_id": [
+        "18413276272670293807"
+      ]
+    },
+    "Jkkp8JAAAAAJ:hqOjcs7Dif8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "FreestyleRet: Retrieving Images from Style-Diversified Queries",
+        "pub_year": "2024",
+        "citation": "ECCV 2024, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:hqOjcs7Dif8C",
+      "num_citations": 16,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=850594851808810468",
+      "cites_id": [
+        "850594851808810468"
+      ]
+    },
+    "Jkkp8JAAAAAJ:Se3iqnhoufwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "AutoConv: Automatically Generating Information-seeking Conversations with Large Language Models",
+        "pub_year": "2023",
+        "citation": "ACL 2023 short, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:Se3iqnhoufwC",
+      "num_citations": 16,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13579497690746528678",
+      "cites_id": [
+        "13579497690746528678"
+      ]
+    },
+    "Jkkp8JAAAAAJ:8k81kl-MbHgC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "GraCo: Granularity-Controllable Interactive Segmentation",
+        "pub_year": "2024",
+        "citation": "CVPR 2024 Highlight, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:8k81kl-MbHgC",
+      "num_citations": 14,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8306455521127621137",
+      "cites_id": [
+        "8306455521127621137"
+      ]
+    },
+    "Jkkp8JAAAAAJ:L8Ckcad2t8MC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM",
+        "pub_year": "2024",
+        "citation": "CVPR 2025, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:L8Ckcad2t8MC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11321659428561686376,2561410106197384835",
+      "cites_id": [
+        "11321659428561686376",
+        "2561410106197384835"
+      ]
+    },
+    "Jkkp8JAAAAAJ:YOwf2qJgpHMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "The curse of multi-modalities: Evaluating hallucinations of large multimodal models across language, visual, and audio",
+        "pub_year": "2024",
+        "citation": "arXiv preprint arXiv:2410.12787, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:YOwf2qJgpHMC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11248730081912568952",
+      "cites_id": [
+        "11248730081912568952"
+      ]
+    },
+    "Jkkp8JAAAAAJ:KlAtU1dfN6UC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A Survey on the Honesty of Large Language Models",
+        "pub_year": "2024",
+        "citation": "TMLR 2024, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:KlAtU1dfN6UC",
+      "num_citations": 12,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13324145754648880763",
+      "cites_id": [
+        "13324145754648880763"
+      ]
+    },
+    "Jkkp8JAAAAAJ:_kc_bZDykSQC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Large Language Models Can Self-Improve in Long-context Reasoning",
+        "pub_year": "2024",
+        "citation": "arXiv preprint arXiv:2411.08147, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:_kc_bZDykSQC",
+      "num_citations": 11,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13279710505146134140",
+      "cites_id": [
+        "13279710505146134140"
+      ]
+    },
+    "Jkkp8JAAAAAJ:Tyk-4Ss8FVUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Multi-granularity Interaction Simulation for Unsupervised Interactive Segmentation",
+        "pub_year": "2023",
+        "citation": "ICCV 2023, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:Tyk-4Ss8FVUC",
+      "num_citations": 11,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10489636501071227093",
+      "cites_id": [
+        "10489636501071227093"
+      ]
+    },
+    "Jkkp8JAAAAAJ:3fE2CSJIrl8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Local Action-Guided Motion Diffusion Model for Text-to-Motion Generation",
+        "pub_year": "2024",
+        "citation": "ECCV 2024, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:3fE2CSJIrl8C",
+      "num_citations": 9,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3055950029281537662",
+      "cites_id": [
+        "3055950029281537662"
+      ]
+    },
+    "Jkkp8JAAAAAJ:UebtZRa9Y70C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "NewsDialogues: Towards Proactive News Grounded Conversation",
+        "pub_year": "2023",
+        "citation": "ACL 2023 findings, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:UebtZRa9Y70C",
+      "num_citations": 6,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18256422177362170678",
+      "cites_id": [
+        "18256422177362170678"
+      ]
+    },
+    "Jkkp8JAAAAAJ:LkGwnXOMwfcC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "WiCo: Win-win Cooperation of Bottom-up and Top-down Referring Image Segmentation",
+        "pub_year": "2023",
+        "citation": "IJCAI 2023, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:LkGwnXOMwfcC",
+      "num_citations": 5,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11004399329327391618",
+      "cites_id": [
+        "11004399329327391618"
+      ]
+    },
+    "Jkkp8JAAAAAJ:5nxA0vEk-isC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Instance Brownian Bridge as Texts for Open-vocabulary Video Instance Segmentation",
+        "pub_year": "2024",
+        "citation": "AAAI 2025, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:5nxA0vEk-isC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17616769024354280378,5485202695457507925",
+      "cites_id": [
+        "17616769024354280378",
+        "5485202695457507925"
+      ]
+    },
+    "Jkkp8JAAAAAJ:0EnyYjriUFMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Object-Aware Transfer-Based Black-Box Adversarial Attack on Object Detector",
+        "pub_year": "2023",
+        "citation": "PRCV 2023 oral, 278-289, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:0EnyYjriUFMC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11897267729889844560",
+      "cites_id": [
+        "11897267729889844560"
+      ]
+    },
+    "Jkkp8JAAAAAJ:kNdYIx-mwKoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Hierarchical collaboration for referring image segmentation",
+        "pub_year": "2024",
+        "citation": "Neurocomputing 2024, 128632, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:kNdYIx-mwKoC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17151200021616463352",
+      "cites_id": [
+        "17151200021616463352"
+      ]
+    },
+    "Jkkp8JAAAAAJ:R3hNpaxXUhUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MagicComp: Training-free Dual-Phase Refinement for Compositional Video Generation",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2503.14428, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:R3hNpaxXUhUC",
+      "num_citations": 0
+    },
+    "Jkkp8JAAAAAJ:r0BpntZqJG4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Breaking the Memory Barrier of Contrastive Loss via Tile-Based Strategy",
+        "pub_year": "2025",
+        "citation": "Proceedings of the Computer Vision and Pattern Recognition Conference, 10036 …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "Jkkp8JAAAAAJ:r0BpntZqJG4C",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 3034,
+  "hindex": 14,
+  "hindex5y": 14,
+  "i10index": 20,
+  "i10index5y": 20,
+  "cites_per_year": {
+    "2021": 45,
+    "2022": 187,
+    "2023": 380,
+    "2024": 729,
+    "2025": 1689
+  },
+  "updated": "2025-07-25 08:32:44.593750"
+}
